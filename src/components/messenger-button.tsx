@@ -26,7 +26,7 @@ const MessengerButton: React.FC<MessengerButtonProps> = ({
         fontFamily: "'Exo 2', sans-serif",
         fontSize: {
           xs: '16px',
-          md: '30px',
+          md: '24px',
         },
         lineHeight: 1.55,
         fontWeight: 700,

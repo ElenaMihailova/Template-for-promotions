@@ -3,6 +3,7 @@ import { Box, Typography, Container, Stack } from '@mui/material';
 import telegramIcon from '../../assets/icon/tm.png';
 import whatsAppIcon from '../../assets/icon/wa.png';
 import MessengerButton from '../../components/messenger-button';
+import { ActionText } from '../../components/action-text';
 
 const WelcomePageView = () => {
   return (
@@ -94,26 +95,7 @@ const WelcomePageView = () => {
           </Typography>
         </Stack>
 
-        <Typography
-          variant="h6"
-          gutterBottom
-          sx={{
-            fontSize: {
-              xs: '19px',
-              md: '21px',
-            },
-            fontFamily: "'Exo 2', sans-serif",
-            fontWeight: '700',
-            color: 'text.primary',
-            wordWrap: 'break-word',
-            textAlign: 'center',
-            margin: '0px',
-            maxWidth: '700px',
-          }}
-        >
-          Жми на мессенджер и забирай купон&nbsp;10000 руб на лазерную эпиляцию
-          с гарантией!
-        </Typography>
+        <ActionText />
 
         <Stack
           direction="column"
